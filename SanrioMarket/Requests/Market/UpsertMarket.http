@@ -1,0 +1,16 @@
+@id= 0db5a89b-2430-4425-853d-107a062583df
+
+PUT http://localhost:5170/market/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Badtz-Maru",
+    "description": "male penguin with spiky hair",
+    "startDateTime": "2024-02-06T02:25:00",
+    "endDateTime": "2024-02-06T03:00:00",
+    "traits": [
+        "American",
+        "Penguin",
+        "Male"
+    ]
+}

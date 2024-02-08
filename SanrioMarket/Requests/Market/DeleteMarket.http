@@ -1,0 +1,3 @@
+@id= 0db5a89b-2430-4425-853d-107a062583df
+
+DELETE http://localhost:5170/market/{{id}}
